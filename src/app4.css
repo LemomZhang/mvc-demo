@@ -1,0 +1,21 @@
+#app4{
+
+}
+
+#app4 .circle{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border:1px solid lightslategray;
+}
+#app4 .circle.active{
+    animation: change 1s infinite alternate linear;
+}
+@keyframes change{
+    0%{
+        background: lightsalmon;
+    }
+    100%{
+        background: lightgreen;
+    }
+}
